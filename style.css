@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+.content{
+    margin: auto;
+
+    width: 800px;
+
+}
+
+body{
+    margin-top: 300px;
+    
+
+}
+table tr:nth-child(odd){
+    background-color: gray;
+}
+table tr:nth-child(even){
+    background-color: rgb(203, 202, 202);
+}
+th{
+    background-color: rgb(40, 39, 39);
+    color: white;
+}
+table tr:last-child {
+    background-color: rgb(40, 39, 39);
+    color: white;
+}
+
+th, td{
+    padding: 0px 3px ;
+}
+th:nth-child(2){
+    width: 300px;
+    text-align:left ;
+}
+table{
+    margin: auto;
+    width: 800px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: right;
+    }
+#devam, #ode2{
+        background-color:rgb(233, 99, 51);
+    color:white ;
+    width: 150px;
+    height: 30px;
+    border: none;
+    margin: 5px;
+    padding: 5px;
+
+}
+#devam :first-child::before {
+
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: '\f07a';
+    
+    }
+#ode2 :first-child::before {
+    /* background-color:rgb(233, 99, 51);
+    color:white ;
+    width: auto;
+    height: 30px; */
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: '\f53b';
+    }
+
+    .buttons{
+        
+        margin: auto;
+    }
+
+    table tr:nth-child(2) td:last-child::after, 
+    table tr:nth-child(3) td:last-child::after,
+    table tr:nth-child(4) td:last-child::after,
+    table tr:nth-child(5) td:last-child::after,
+    table tr:nth-child(6) td:last-child::after
+    
+    {
+        /* background-color:rgb(233, 99, 51);
+        color:white ;
+        width: auto;
+        height: 30px; */
+        font-family: 'Font Awesome 5 Free';
+        font-weight: 900;
+        content: '\f2ed';
+                }
+
+                table tr:nth-child(2) td:last-child::before, 
+                table tr:nth-child(3) td:last-child::before,
+                table tr:nth-child(4) td:last-child::before,
+                table tr:nth-child(5) td:last-child::before,
+                table tr:nth-child(6) td:last-child::before
+                
+                {
+                    /* background-color:rgb(233, 99, 51);
+                    color:white ;
+                    width: auto;
+                    height: 30px; */
+                    margin: 12px;
+                    font-family: 'Font Awesome 5 Free';
+                    font-weight: 900;
+                    content: '\f044';
+                            }
